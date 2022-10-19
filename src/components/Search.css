@@ -1,0 +1,31 @@
+.search-bar {
+  margin-top: 40px;
+}
+
+.search {
+  position: relative;
+}
+
+.search-input {
+  height: 60px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  text-indent: 30px;
+  padding: 0;
+}
+.search-input:focus {
+  border: 2px solid black;
+  outline: none;
+}
+.search-btn {
+  position: absolute;
+  top: 5px;
+  right: 18px;
+  height: 50px;
+}
+.fa-search {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
